@@ -1,0 +1,72 @@
+html{
+    font-family: avenir;
+    background-color: #E6E6FA;
+    font-size: 100%;
+    margin: 2.5% 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.view{
+    min-height: 100vh;
+    padding: 0 5%;
+}
+
+.view .title{
+    position: absolute;
+    margin: 2.5% 0;
+    font-size: 200%;
+}
+
+.view h1{
+    padding-top: 2.5%;
+    text-align: center;
+}
+
+.view .content{
+    text-align: center;
+    position: relative;
+}
+
+.vert_no_center{
+    top: 2.5%;
+}
+
+.vert_center{
+    top: 40vh;
+    transform: translateY(-40%);
+    vertical-align: middle;
+}
+
+/* Nav Bar Config */
+
+#nav_bar{
+    text-align: center;
+    background: blue;
+    color: white;
+    padding: 2% 0;
+}
+
+#nav_bar li{
+    display: inline;
+    padding: 0 5%;
+}
+
+#nav_bar a{
+    color: white;
+    white-space:nowrap;
+}
+
+/* End Nav Bar Config */
+
+#back_to_home{
+    position: fixed;
+    bottom: 0;
+    right: 2.5%;
+    display: None;
+}
+
+
+
