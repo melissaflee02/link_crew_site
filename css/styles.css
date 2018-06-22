@@ -9,6 +9,7 @@ a {
 }
 
 .view{
+    text-align: center;
     min-height: 100vh;
     padding: 0 5%;
 }
@@ -36,7 +37,8 @@ a {
 }
 
 .vert_no_center{
-    top: 2.5%;
+    text-align: center;
+    margin-top: 5vh;
 }
 
 .vert_center{
@@ -46,15 +48,18 @@ a {
 }
 
 .profile{
-    margin: 15% 0;
+    margin-top: 50px;
 }
 
 .profile img{
     width: 100px;
     height: 100px;
-    float: left;
     display: inline-block;
-    padding: 2%;
+    padding: 0;
+}
+
+.text{
+    display: inline-block;
 }
 
 /* Nav Bar Config */
