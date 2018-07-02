@@ -63,12 +63,34 @@ a {
     display: inline-block;
 }
 
+#home_view{
+
+}
+
+#about_view{
+
+}
+
+#curriculum_view{
+
+}
+
+#pics_view{
+
+}
+
+#contact_view{
+
+}
+
+
 /* Nav Bar Config */
 
 #nav_bar{
     position: absolute;
     left: 0;
     right: 0;
+    top: 100px;
     margin: auto;
     width: 100%;
     background: blue;
@@ -96,7 +118,6 @@ a {
     display: None;
 }
 
-
 #home_logo{
     width: 400px;
     height: 400px;
@@ -104,3 +125,8 @@ a {
     padding: 0;
 }
 
+#page_title{
+    margin: auto;
+    font-size: 200%;
+    padding: 2%;
+}
