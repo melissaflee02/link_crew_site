@@ -38,8 +38,9 @@ a {
 }
 
 .vert_no_center{
+    position: static;
     text-align: center;
-    margin-top: 5vh;
+    padding-top: 10vh;
 }
 
 .vert_center{
@@ -130,3 +131,34 @@ a {
     font-size: 200%;
     padding: 2%;
 }
+
+/* Image gallery begin */
+
+#gallery{
+    width: 90%; 
+    margin: auto;
+    padding-top: 10vh;
+}
+
+#gallery .pic_tile{
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    padding: 2%;
+}
+
+#gallery .pic_tile:hover{
+    border: 1px solid #777;
+}
+
+#gallery .pic_tile img{
+    width: 200px;
+    height: 200px;
+}
+
+.pic_tile .desc {
+    padding: 20px 0;
+    text-align: center;
+}
+
