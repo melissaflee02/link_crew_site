@@ -17,7 +17,7 @@ img{
     margin: auto;
     text-align: center;
     min-height: 100vh;
-    padding: 0 5%;
+    width: 90vw;
 }
 
 .view .title{
@@ -55,13 +55,14 @@ img{
 }
 
 .profile{
-    margin-top: 50px;
+    margin: 10px 0;
 }
 
 .profile img{
     width: 100px;
     height: 100px;
     display: inline-block;
+    margin: auto;
 }
 
 .text{
@@ -93,25 +94,32 @@ img{
 
 #nav_bar{
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 100px;
     margin: auto;
-    width: 95%;
-    background: blue;
-    color: white;
-    padding: 2%;
+    padding: 0;
+    list-style: none;
+    width: 90%;
+    text-align: center;/*add text align-center*/
 }
 
 #nav_bar li{
-    text-align: center;
-    display: inline;
-    padding: 0 5%;
+    display: inline-block;
 }
 
 #nav_bar a{
-    color: white;
-    white-space:nowrap;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 0;
+    width: 100px;
+    background: blue;
+    color: #eee;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #fff;
+}
+
+#nav_bar a:hover{
+    background-color: lightsteelblue;
+    color: blue;
 }
 
 /* End Nav Bar Config */
