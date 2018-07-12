@@ -43,7 +43,6 @@ img{
 }
 
 .vert_no_center{
-    position: static;
     text-align: center;
     padding-top: 10vh;
 }
@@ -150,7 +149,6 @@ img{
 #gallery{
     width: 90%; 
     margin: auto;
-    padding-top: 10vh;
 }
 
 #gallery .pic_tile{
