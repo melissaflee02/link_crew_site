@@ -131,10 +131,11 @@ img{
 }
 
 #home_logo{
-    width: 400px;
+    width: auto;
     height: 400px;
     display: inline-block;
     padding: 0;
+    border: none;
 }
 
 #page_title{
