@@ -1,5 +1,5 @@
 html{
-    font-family: avenir;
+    font-family: 'PT Sans', sans-serif;
     background-color: #E6E6FA;
     font-size: 100%;
 }
@@ -8,10 +8,16 @@ a {
     text-decoration: none;
 }
 
+img{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
 .view{
+    margin: auto;
     text-align: center;
     min-height: 100vh;
-    padding: 0 5%;
+    width: 90vw;
 }
 
 .view .title{
@@ -38,7 +44,7 @@ a {
 
 .vert_no_center{
     text-align: center;
-    margin-top: 5vh;
+    padding-top: 75px;
 }
 
 .vert_center{
@@ -48,47 +54,144 @@ a {
 }
 
 .profile{
-    margin-top: 50px;
+    margin: 10px 0;
 }
 
 .profile img{
     width: 100px;
     height: 100px;
     display: inline-block;
-    padding: 0;
+    margin: auto;
 }
 
 .text{
     display: inline-block;
 }
 
+#home_view{
+
+}
+
+#about_view{
+
+}
+
+#curriculum_view{
+
+}
+
+#pics_view{
+
+}
+
+#contact_view{
+
+}
+
+
 /* Nav Bar Config */
 
 #nav_bar{
-    text-align: center;
-    background: blue;
-    color: white;
-    padding: 2% 0;
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    width: 90%;
+    text-align: center;/*add text align-center*/
 }
 
 #nav_bar li{
-    display: inline;
-    padding: 0 5%;
+    display: inline-block;
 }
 
 #nav_bar a{
-    color: white;
-    white-space:nowrap;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 0;
+    width: 100px;
+    background: blue;
+    color: #eee;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #fff;
+}
+
+#nav_bar a:hover{
+    background-color: lightsteelblue;
+    color: blue;
 }
 
 /* End Nav Bar Config */
 
 #back_to_home{
     position: fixed;
-    bottom: 0;
+    bottom: 2.5%;
     right: 2.5%;
     display: None;
 }
 
+#home_logo{
+    width: auto;
+    height: 400px;
+    display: inline-block;
+    padding: 0;
+    border: none;
+}
 
+#page_title{
+    font-family: 'Knewave', cursive;
+    margin: auto;
+    font-size: 200%;
+    padding: 2%;
+}
+
+/* Image gallery begin */
+
+#gallery{
+    width: 90%; 
+    margin: auto;
+}
+
+#gallery .pic_tile{
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    padding: 2%;
+    margin: 10px;
+}
+
+#gallery .pic_tile:hover{
+    border: 1px solid #777;
+}
+
+#gallery .pic_tile img{
+    width: 200px;
+    height: 200px;
+}
+
+/* Image gallery end */
+
+/* curriculum table begin */
+
+#curriculum_table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 2% auto;
+}
+
+#curriculum_table td, #curriculum_table th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+#curriculum_table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.pic_tile .desc {
+    padding: 20px 0;
+    text-align: center;
+}
 

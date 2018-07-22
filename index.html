@@ -4,12 +4,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Link Crew 2018</title>
         <link rel = "stylesheet" href = "css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Knewave|PT+Sans" rel="stylesheet">
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/myscript.js"></script>
     </head>
     <body>
         <div id = "home_view" class = "view">
-            <h1>FHS Link Crew</h1>
+            <div id = "page_title">FHS Link Crew</div>
             <ul id = "nav_bar">
                 <li><a href="#home_view">Home</a></li>
                 <li><a href="#about_view">About</a></li>
@@ -17,6 +18,9 @@
                 <li><a href="#pics_view">Pics</a></li>
                 <li><a href="#contact_view">Contact</a></li>
             </ul>
+            <div class = "vert_center content">
+                <img id = "home_logo" src="pics/link_logo.png">
+            </div>
         </div>
 
         <div id = "home_view" class = "view">
@@ -32,20 +36,25 @@
 
 
         <div id = "about_view" class = "view">
-            <div class = "title">ABOUT</div>
+            <h1 class = "title">About</h1>
             <div class = "vert_center content">
+                <div class = "vert_center right">
+                        <h3>Our Mission Statement</h3>
+                        Link Crew was founded by Melissa Lee and Sandra Kim in 2018.  In Link Crew, we want to give incoming freshman the opportunity to meet new classmates and learn a little bit about Fremont High School before they begin in the fall!
+                </div>
                 <div class = "vert_center left">
+                    <h3>Founders</h3>
                     <div class = "profile">
-                        <img class = "vert_center" src="pics/placeholder.jpg">
-                        <div class = "vert_center text">
-                            <h3>Melissa Lee</h3>
+                        <img src="pics/melissa_pp.jpg">
+                        <div class = "text">
+                            <h4>Melissa Lee</h4>
                             <div>"Hi I'm Melissa!"</div>
                         </div>
                     </div>
                     <div class = "profile">
-                        <img class = "vert_center" src="pics/placeholder.jpg">
-                        <div class = "vert_center text">
-                            <h3>Sandra Kim</h3>
+                        <img src="pics/sandra_pp.jpg">
+                        <div class = "text">
+                            <h4>Sandra Kim</h4>
                             <div>"Hi I'm Sandra!"</div>
                         </div>
                     </div>
@@ -57,39 +66,64 @@
         </div>
 
         <div id = "curriculum_view" class = "view">
-            <div class = "title">CURRICULUM</div>
+            <h1 class = "title">Curriculum</h1>
+            <div class = "vert_no_center content">
+            <h3>Below is our tentative schedule</h3>
+                <table id="curriculum_table">
+                    <tr>
+                        <th>Day</th>
+                        <th>Time</th>
+                        <th>Activity</th>
+                    </tr>
+                    <tr>
+                        <td>Monday (XX/XX/2018)</th>
+                        <td>9:00am</th>
+                        <td>Introductions</th>
+                    </th>
+                    <tr>
+                        <td>Fill</th>
+                        <td>In</th>
+                        <td>More</th>
+                    </tr>
+                    <tr>
+                        <td>Fill</th>
+                        <td>In</th>
+                        <td>More</th>
+                    </tr>
+                    <tr>
+                        <td>Fill</th>
+                        <td>In</th>
+                        <td>More</th>
+                    </tr>
+                </table>
+            </div>
         </div>
 
         <div id = "pics_view" class = "view">
-            <div class = "title">PICS</div>
+            <h1 class = "title">Pics</h1>
+            <div class = "vert_no_center content">
+                <div id="gallery">
+                    <div class="pic_tile">
+                        <a target="_blank" href="pics/placeholder.jpg">
+                            <img src="pics/placeholder.jpg">
+                        </a>
+                        <div class="desc">This is a placeholder, replace this with a description of the image</div>
+                    </div>
+                    <div class="pic_tile">
+                        <a target="_blank" href="pics/placeholder2.jpg">
+                            <img src="pics/placeholder2.jpg">
+                        </a>
+                        <div class="desc">This is a placeholder, replace this with a description of the image</div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div id = "contact_view" class = "view">
-            <div class = "title">CONTACT</div>
+            <h1 class = "title">Contact</h1>
             <div class = "vert_center content">Questions?  Email us at <a href="mailto:melissa.f.lee02@gmail.com">melissa.f.lee02@gmail.com</a> or give us a call at (408) 313-4915!</div>
         </div>
 
         <a id='back_to_home' href='#home_view'>Back To Home</a>
-
-
-
-
-        <!--
-        <div style = "width: 60%; float: left; padding-bottom: 10%">
-            Party Size: <input id = "party_size" type="text" onchange="get_party_size()"><span><button type="button" id = "clear_data_button" onclick="clear_data()">Clear Data</button></span></br>
-            Tax: <input id = "tax_amount" type="text" onchange="get_tax_amount()">%</br>
-            Tip: <input id = "tip_amount" type="text" onchange="get_tip_amount()">%</br>
-            <div id = "people"></div>
-        </div>
-        <div id = "display" style = "float: right; width: 35%">
-            <b>Summary:</b>
-            <div id = "party"></div>
-            <div id = "bill"></div>
-            <div id = "tax"></div>
-            <div id = "tip"></div>
-            <div id = "people"></div>
-        </div>
-        -->
-        <!-- Designed and coded by Ryan Lee.  If you have any questions, please visit github.com/ryazlee/link_crew_site/-->
     </body>
 </html>

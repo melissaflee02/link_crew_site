@@ -2,8 +2,9 @@ $(document).ready(function () {
     // Display back to top button on scroll
     window.onload = function() {
         if (window.matchMedia("(max-width: 700px)").matches){
-            $(".vert_center, .left").attr("class", "vert_no_center");
-            $(".vert_center, .right").attr("class", "vert_no_center");
+            $(".vert_center, .left").addClass("vert_no_center").removeClass("left");
+            $(".vert_center, .right").addClass("vert_no_center").removeClass("right");
+
         }
     }
     window.onscroll = function() {
